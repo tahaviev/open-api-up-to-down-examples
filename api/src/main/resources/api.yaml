@@ -1,0 +1,18 @@
+openapi: "3.0.0"
+info:
+  title: "Test example"
+  version: "1.0.0"
+servers:
+  - url: http://localhost
+paths:
+  /test:
+    get:
+      summary: "test summary"
+      operationId: "testOperationId"
+      responses:
+        200:
+          content:
+            text/plain:
+              schema:
+                type: "string"
+          description: "test description"
