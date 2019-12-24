@@ -12,6 +12,7 @@
     <modules>
         <module>api</module>
         <module>jaxrs</module>
+        <module>spring</module>
     </modules>
 
 </project>
